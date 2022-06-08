@@ -2119,9 +2119,7 @@
     @media (max-width: 991px) {
 
 		
-		.main-navigation{
-			background-color: #069455;
-		}
+		
        
        
 
@@ -2194,8 +2192,9 @@
 		.trade-text{
 			background-size: contain;
 			background-repeat: no-repeat;
-			background-position: center center;
+			background-position: top center;
 			padding-bottom: 40px;
+			padding-top: 40px;
 		}
 
 		.txt-image img {
@@ -2206,7 +2205,13 @@
 		}
 
 		.nav-list .nav-item .btn-nav-book{
-			width: 315px;
+			width: 250px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			float: none;
+			margin-top: 30px;
+			height: 50px;
 		}
 
 		.nav-list .nav-item .btn-nav-book p{
@@ -2258,12 +2263,12 @@
 
 	
 		#file-a-complaint{
-			background: url(../img/online-scam-hero-cover.jpg) no-repeat;
+			background: url(../img/mobile-cover-hero.jpg) no-repeat;
 			background-color: #01172d;
 		    background-size: contain;
     		background-repeat: no-repeat !important;
     		background-position: top;
-			margin-top: 73px;
+			margin-top:0;
 		}
 
 		.header-image {
@@ -2285,7 +2290,7 @@
 		}
 
 		.webpro-faq .faq-header .btn {
-			font-size: 13px;
+			font-size: 14px;
 		}
 
 		.webpro-faq .faq-header .btn .fa {
@@ -2423,6 +2428,7 @@
 
 		#our-process{
 			padding-left: 20px;
+			padding-bottom: 30px;
 		}
 
 		.steps{
@@ -2440,25 +2446,40 @@
 		#file-a-complaint .logo-trusted {
 			display: block;
 			margin-top: 40px;
+		
 		}
 
 		#our-process h2 {
 			font-size: 25px;
 			margin-bottom: 50px;
 			text-align: center;
+			color: #161558;
 		}
 
 		.txt-services h2 {
 			font-size: 23px;
+			margin-top: 115px;
+			text-align: center;
 		}
 
 		#inner-buy-offer h1 {
 			font-size: 23px;
+			margin-bottom: 20px;
 		}
-		
+		.sell-tabs{
+			padding-left: 0;
+			background-color: transparent;
+			border: none;
+			box-shadow: none;
+			padding-bottom: 10px;
+		}
 		.sell-tabs .nav-item {
-			width: 40%;
+			width: 43%;
 			margin-bottom: 10px;
+		}
+
+		.left-box-service {
+			padding-top: 5px;
 		}
 
 		#text-content .txt-right {
@@ -2469,6 +2490,7 @@
 
 		#text-content .txt-right h2 {
 			font-size: 21px;
+			margin-top: 10px;
 		}
 
 		.section-trust .blue-text {
@@ -2478,9 +2500,60 @@
 		.bottom-banner h2 {
 			font-size: 22px;
 		}
-     
 
-     
+		.tab-image{
+			margin-top: 10px;
+		}
+		
+		#text-content {
+			background: url(../img/mobile-lost-money.jpg) no-repeat;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: top center;
+			position: relative;
+			min-height: 1080px;
+			padding-top: 230px;
+		}
+
+		#text-content .txt-right .center-icon{
+			margin-bottom: 15px;
+		}
+
+		.section-trust{
+			padding-top: 30px;
+			padding-bottom: 20px;
+		}
+
+		.section-trust h2 {
+			font-size: 21px;
+			margin-top: 20px;
+		}
+
+		.section-trust h6 img {
+			display: none;
+		}
+
+		.section-trust .mix-image{
+			margin-top: 20px;
+		}
+
+		.section-trust .btn-get-money{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#faq-section-ta .text-faq-box h2{
+			font-size: 21px;
+		}
+		
+		.link-footer:nth-child(1){
+			display: none;
+		}
+
+		.link-footer:nth-child(2){
+			display: none;
+		}
 
 	} /* end mobile responsive media querie*/
 
