@@ -1831,8 +1831,14 @@
 			
 		}
 
+
+		.contact-form{
+			width: 50%;
+		}
+
 		#text-content .txt-right h2 {
 			font-size: 34px;
+			margin-bottom: 40px;
 		}
 
 		.list-fea h6 {
@@ -1878,14 +1884,14 @@
 		}
 
 		#recover-process .l-side {
-			padding-right: 8%;
-			padding-left: 7%;
+		padding-right: 8%;
+		padding-left: 7%;
 		}
 
 		#text-content .txt-right {
-			padding-left: 4%;
-			padding-right: 11%;
-			
+		padding-left: 4%;
+		padding-right: 11%;
+
 		}
 
 		.box-process img {
@@ -2019,9 +2025,7 @@
 
 		#file-a-complaint .logo-trusted {
 			display: block;
-			position: absolute;
-			bottom: 30px;
-			right: 23%;
+			float: left;
 		}
 
 		.final-banner .blue-text {
@@ -2029,7 +2033,27 @@
 			margin-top: 150px;
 		}
 
+		.txt-services .center-icon{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
 
+		.section-trust p{
+			font-size: 18px;
+		}
+
+		.section-trust h6 {
+			font-size: 18px;	
+		}
+
+		.section-trust h2{
+			margin-bottom: 60px;
+		}
+
+		#text-content .txt-right p{
+			font-size: 18px;
+		}
 
 
 	}/* End 2560px Responsive Design extra large  */
@@ -2070,8 +2094,21 @@
 
     @media (max-width: 1200px) {
 		
-		
 	
+		.contact-informations h5 {
+			width: 100%;
+			font-size: 17px;
+		}
+
+		#text-content .txt-right {
+			padding-right: 20px;
+			padding-left: 20px;
+			margin-top: 0px;
+		}
+		
+		.contact-form .form-title{
+			font-size: 13px;
+		}
 
 		.contact-informations h2 span{
 			font-size: 23px;
@@ -2121,7 +2158,24 @@
 		
 		
        
-       
+		.nav-list .nav-item .btn-nav-book{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			float: none;
+			height: 50px;
+		}
+
+
+		#file-a-complaint .logo-trusted {
+			display: block;
+			margin-top: 50px;
+		}
+
+		.contact-form {
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
 
 
     }  /* end  max widht 991px  */
@@ -2132,7 +2186,8 @@
 
     @media (max-width: 767.98px) {
 
-       
+		
+		
 		
         .contact-form{
             margin-left: 10px;
