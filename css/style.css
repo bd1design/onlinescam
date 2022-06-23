@@ -487,18 +487,8 @@
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-shadow: none;
-	animation: breath 2s ease-in-out alternate infinite;
-
 	}
 
-	@keyframes breath {
-	from { 
-	transform: scale(1);
-	}
-	to {
-	transform: scale(1.03)
-	}
-	}
 
 	.header-image{
 		display: block;
@@ -516,7 +506,20 @@
 	margin-bottom: 5px;
 	padding-left: 0;
 	margin-top: 40px;
-	width: 55%;
+	width: 80%;
+	}
+
+
+	.contact-informations h4{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 5px;
+	padding-left: 0;
+	text-transform: uppercase;
+
 	}
 
 	.contact-informations h6{
@@ -657,8 +660,8 @@
     /* LET'S RECOVER YOUR LOST FUNDS section */
     
 	#our-process{
-	padding-top: 40px;
-	padding-bottom: 130px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background: #F9FCFC;
 	padding-left: 30px;
 	}
@@ -752,12 +755,12 @@
   
 
     #text-content{
-	    background: url(../img/girl-stuped-scam.jpg) no-repeat;
+	    background: url(../img/new-women-online.jpg) no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
     position: relative;
-    min-height: 1080px;
+    min-height: 800px;
 	padding-top: 100px;
 
 
@@ -791,7 +794,7 @@
     font-size: 27px;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 	font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -801,9 +804,10 @@
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     color: #1E1D1D;
-    font-size: 16px;
+    font-size: 17px;
     text-align: left;
     line-height: 27px;
+	margin-bottom: 25px;
 
     }
 
@@ -851,7 +855,7 @@
 	/* ----- SECTION CHOOSE US ----------- */
 
 	.section-trust{
-	padding-top: 120px;padding-bottom: 80px;
+	padding-top: 50px;padding-bottom: 80px;
 	background: url(../img/wave-background.jpg) no-repeat;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -895,7 +899,19 @@
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		z-index: 999;
 	}
+
+	
+	.section-trust .center-dots{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 120px;height: 120px;
+		margin-bottom: -92px;
+		
+	}
+	
 	
 	.section-trust  p{
 	font-family: 'Titillium Web', sans-serif;
@@ -963,6 +979,16 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
+	}
+
+
+	#faq-section-ta .faq-dots{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 120px;height: 120px;
+		margin-bottom: -92px;
+		
 	}
 
 
@@ -1422,7 +1448,7 @@
 	text-align: center;
 	color: #fff;
 	background-color: #F55340;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
@@ -2445,15 +2471,15 @@
 		}
 
 		.contact-informations h2 span {
-			font-size: 17px;
+			font-size: 25px;
 			color: #fff;
 			
 		}
 
 		.contact-informations h2 {
-			font-size: 17px;
+			font-size: 25px;
 			color: #fff;
-			margin-top: 80px;
+			margin-top: 10px;
 		}
 
         .contact-form{
@@ -2463,6 +2489,11 @@
         .contact-form .form-title span {
             font-size: 10px;
         }
+
+		.contact-informations h4 {
+			font-size: 14px;
+			margin-top: 60px;
+		}
 
 
 		
@@ -2530,7 +2561,14 @@
 		}
 		.sell-tabs .nav-item {
 			width: 43%;
-			margin-bottom: 10px;
+			margin-bottom: 24px;
+			height: 110px;
+			display: block;
+			float: left;
+		}
+
+		.sell-tabs .nav-item a{
+			height: 110px;
 		}
 
 		.left-box-service {
@@ -2553,7 +2591,7 @@
 		}
 
 		.bottom-banner h2 {
-			font-size: 22px;
+			font-size: 20px;
 		}
 
 		.tab-image{
@@ -2566,7 +2604,7 @@
 			background-repeat: no-repeat;
 			background-position: top center;
 			position: relative;
-			min-height: 1080px;
+			min-height: auto;
 			padding-top: 230px;
 		}
 
